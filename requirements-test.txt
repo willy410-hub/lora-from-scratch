@@ -1,0 +1,8 @@
+# Minimal dependencies to run the offline test suite (tests/test_lora_spec.py,
+# tests/test_data_prep.py, tests/test_metrics.py, tests/test_config.py).
+# None of these require TensorFlow/tf_keras -- see README's "Running Tests"
+# section for why.
+pytest>=8.3.0
+nltk>=3.8.1
+rouge-score>=0.1.2
+pydantic-settings>=2.5.0

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ML artifacts
+*.h5
+*.ckpt
+checkpoints/
+saved_model/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
